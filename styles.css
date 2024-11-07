@@ -1,1 +1,123 @@
-
+.cf_bcl_wc {
+    background-color: rgb(255 255 255);
+  }
+  
+  .bcl_widget-container {
+    font-size: 1rem;
+    border: 3px solid #000;
+    padding: 10px;
+    color: black;
+    margin: 5px;
+    display: inline-block;
+    font-family: inherit;
+  }
+  
+  .bcl_widget-container dt, .bcl_title, .bcl_float-right {
+    font-weight: bold;
+  }
+  
+  .bcl_widget-container .policies {
+    font-weight: bold;
+    font-size: 1.125em;
+  }
+  
+  .bcl_h1 {
+    font-size: 1.875em;
+    line-height: 1.25;
+  }
+  
+  .bcl_h2 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  
+  .bcl_h3, .bcl_h4 {
+    font-size: 1.125em;
+    line-height: normal;
+  }
+  
+  .bcl_h5, .bcl_footer, .bcl_widget-container dd {
+    font-size: 1em;
+    line-height: normal;
+  }
+  
+  .bcl_float-right {
+    float: right;
+  }
+  
+  .bcl_float-left {
+    float: left;
+  }
+  
+  .bcl_list-none {
+    list-style-type: none;
+    clear: both;
+    margin-bottom: 0;
+  }
+  
+  .bcl_remove_margin {
+    margin: 0;
+    clear: both;
+  }
+  
+  .bcl_margin_top {
+    margin-top: 1em;
+    margin-bottom: 0;
+    clear: both;
+  }
+  
+  .bcl_link {
+    text-decoration: none;
+  }
+  
+  .clear-space.bcl_remove_margin::after, .bcl_widget-container .monthly::after, .bcl_widget-container .discounts::after, .bcl_provider::after, .bcl_title::after, .bcl_widget-container .support::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: black;
+    top: 100%;
+    left: 0;
+  }
+  
+  .clear-space.bcl_remove_margin::after, .bcl_widget-container .monthly::after, .bcl_widget-container .discounts::after {
+    height: 0.25em;
+    margin-top: 0.4em;
+  }
+  
+  .bcl_provider::after {
+    height: 0.5em;
+    margin-top: 0.5em;
+  }
+  
+  .bcl_title::after, .bcl_widget-container .support::after {
+    height: 0.75em;
+    margin-top: 0.5em;
+  }
+  
+  .clear-space.bcl_remove_margin, .bcl_widget-container .monthly, .bcl_widget-container .discounts {
+    position: relative;
+    margin-bottom: 1em;
+  }
+  
+  .bcl_provider {
+    position: relative;
+    margin-bottom: 1.4em;
+  }
+  
+  .bcl_title, .bcl_widget-container .support {
+    position:relative;
+    margin-bottom: 1.7em;
+  }
+  
+  .bcl_widget-container dl.additional-charges, .bcl_widget-container dl.acp, .bcl_widget-container dl.speeds, .bcl_widget-container dl.data, .bcl_widget-container dl.policies {
+    margin-bottom: 0;
+  }
+  
+  .bcl_footer, .bcl_widget-container a {
+    word-break: break-word;
+  }
+  
+  dd.bcl_list-none, dd.bcl_margin_top {
+    margin-left: 0;
+  }
+  
